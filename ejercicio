@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////////////////Ejecicio 1////////////////////////////
+<?php
+ // Puedes agregar comentarios con "#" o "//"
+
+//podemos declarar y llamar variables con $
+$numero1 = 5;
+$numero2 = 10;
+$suma = $numero1 + $numero2;
+
+// Y yaconocemos a echo para mostrar datos 
+echo "La suma de $numero1 y $numero2 es $sume";
+
+/////////////////////////////////////////////////////////////////Ejercicio 2////////////////////////
+<?php 
+$numero = -5;
+
+# El if de toda la vida <3
+if ($numero > 0){
+ echo "El numero es positivo";
+ } elseif ($numero < 0){
+ echo "El numero es negativo";
+ } else {
+  echo "El numero es cero";
+ }
+?>
+
+/////////////////////////////////////////////////////////////ejercicio 3///////////////////////////////
+<?php 
+ # El for siempre tambien <3
+ for ($i = 1; $i <= 10; $i++) {
+     echo $i . "<br>";
+}
+?>
+
+/////////////////////////////////////////////////////////////Ejercicio 4///////////////////////////////
+<form action="saludo.php" method="post">
+ Nombre: <input type="text" name="nombre">
+<input type="submit">
+</form>
